@@ -28,10 +28,10 @@ $ditancia-prudente-3: 100px;
 }
 
 .color-blanco{
-    color: #fff;
+    color: $color-3;
 }
 .color-negro{
-    color: #121212;
+    color: $color-6;
 }
 
 .espacio-prudente{
@@ -102,7 +102,7 @@ header {
             border-bottom: solid 3px $color-3;
         }
         .nav-link:hover {
-            color: $color-1;
+            color: $color-6;
         }
     }
 }
@@ -191,14 +191,14 @@ footer{
             background-color: $color-6;
             color: $color-3;
             border: none;
-            :hover{
+            &:hover{
                 background-color: $color-3;
                 color: $color-6;
             }
         }
     }
 }
-.nav-tabs{
+.nav-tabs{ //tabs en productos
     
     .nav-link{
         color: $color-6;

@@ -98,7 +98,7 @@ header nav .navbar-nav .nav-link.active {
   border-bottom: solid 3px #fff;
 }
 header nav .nav-link:hover {
-  color: #E0261A;
+  color: #121212;
 }
 
 .banner-productos {
@@ -180,7 +180,7 @@ footer .formulario .submit-button {
   color: #fff;
   border: none;
 }
-footer .formulario .submit-button :hover {
+footer .formulario .submit-button:hover {
   background-color: #fff;
   color: #121212;
 }
