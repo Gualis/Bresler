@@ -1,0 +1,230 @@
+//Variables
+// @import url('../style/_variables.scss');
+// @import url('../style/_texto.scss');
+
+//Colores
+$color-1: #E0261A;
+$color-2: #F5CA1D;
+$color-3: #fff;
+$color-4: #9FE3D5;
+$color-5: #E8BA02;
+$color-6: #121212;
+//Distancias standar
+$ditancia-prudente-1: 25px;
+$ditancia-prudente-2: 50px;
+$ditancia-prudente-3: 100px;
+
+.bg-rojo{
+    background-color: $color-1;
+}
+.bg-amarillo{
+    background-color: $color-5;
+}
+.bg-celeste{
+    background-color: $color-4;
+}
+.bg-negro{
+    background-color: $color-6;
+}
+
+.color-blanco{
+    color: #fff;
+}
+.color-negro{
+    color: #121212;
+}
+
+.espacio-prudente{
+    padding: $ditancia-prudente-1;
+}
+
+.py-25{
+    padding-top: $ditancia-prudente-1;
+    padding-bottom: $ditancia-prudente-1;
+}
+.py-50{
+    padding-top: $ditancia-prudente-1;
+    padding-bottom: $ditancia-prudente-1;
+}
+.py-100{
+    padding-top: $ditancia-prudente-1;
+    padding-bottom: $ditancia-prudente-1;
+}
+
+.px-10{
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 800;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 48px;
+}
+h3{
+    font-size: 36px;
+}
+h4{
+    font-size: 18px;
+}
+h5{
+    font-size: 16px;
+}
+
+//Estilo
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: $color-1;
+    nav {
+        .logo { 
+            width: 80px;
+        }
+        .nav-link {
+            font-weight: bold;
+            color: $color-3;
+            margin-right: 20px;
+        }
+        .navbar-nav .show  .nav-link,
+        .navbar-nav .nav-link.active {
+            color: $color-3;
+            border-bottom: solid 3px $color-3;
+        }
+        .nav-link:hover {
+            color: $color-1;
+        }
+    }
+}
+.banner-productos{
+    background-color: $color-2;
+    color: $color-3;
+    padding: $ditancia-prudente-2 0;
+    img{
+        height: 200px;
+        width: 160px;
+    }
+
+}
+
+.catalogo-productos{
+    padding: $ditancia-prudente-2 0;
+
+    img{
+        max-width:100%;
+        max-height:100%;
+    }
+
+    .col-3:hover{
+        background-color: #E0261A;
+      }
+      .col-4:hover{
+        background-color: #E0261A;
+      }
+    
+}
+.banner-recetas{
+    background-color: $color-4;
+    color: $color-3;
+    padding: $ditancia-prudente-1 0;
+    img{
+        height: 200px;
+        width: 160px;
+    }
+
+}
+
+.franga-sello-footer{
+
+    background-color: $color-6;
+    padding: $ditancia-prudente-1 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img{
+        width: 84px;
+        height: 79px;
+    }
+    p{
+        color: $color-3;
+        font-size: 18px;
+        font-weight: bold;
+        margin: 0;
+    }
+}
+.inferior-footer{
+    img{
+        height: 70px;
+        width: 70px;
+    }
+}
+footer{
+    .formulario{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        .casilla{
+            background-color: $color-3;
+            border: none;
+            padding: 7px 12px;
+            margin-bottom: 12px;
+        }
+        .submit-button{
+            width: 160px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            align-self: flex-end;
+            font-family: 'Libre Franklin', sans-serif;
+            font-weight: 800;
+            background-color: $color-6;
+            color: $color-3;
+            border: none;
+            :hover{
+                background-color: $color-3;
+                color: $color-6;
+            }
+        }
+    }
+}
+.nav-tabs{
+    
+    .nav-link{
+        color: $color-6;
+        border-top: 3px #a7a7a7 solid;
+        border-right: 3px #a7a7a7   solid;
+        border-bottom: none;
+        border-left: none;
+        border-radius: 0;
+        margin: 0px;
+        :hover{
+            color: $color-1;
+            border-top: 3px $color-1 solid;
+            border-right: 3px $color-1   solid;
+            border: none;
+            border-left: none;
+            margin: 0px;
+        }
+    }
+    .nav-link.active{
+        border-top: 3px $color-1 solid;
+        border-right: 3px $color-1 solid;
+        border-bottom: none;
+        border-left: none;
+        border-radius: 0;
+        color: $color-1;
+
+    }
+}
+

@@ -1,0 +1,214 @@
+@import url("../style/_variables.scss");
+@import url("../style/_texto.scss");
+.bg-rojo {
+  background-color: #E0261A;
+}
+
+.bg-amarillo {
+  background-color: #E8BA02;
+}
+
+.bg-celeste {
+  background-color: #9FE3D5;
+}
+
+.bg-negro {
+  background-color: #121212;
+}
+
+.color-blanco {
+  color: #fff;
+}
+
+.color-negro {
+  color: #121212;
+}
+
+.espacio-prudente {
+  padding: 25px;
+}
+
+.py-25 {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.py-50 {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.py-100 {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.px-10 {
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 800;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 36px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #E0261A;
+}
+header nav .logo {
+  width: 80px;
+}
+header nav .nav-link {
+  font-weight: bold;
+  color: #fff;
+  margin-right: 20px;
+}
+header nav .navbar-nav .show .nav-link,
+header nav .navbar-nav .nav-link.active {
+  color: #fff;
+  border-bottom: solid 3px #fff;
+}
+header nav .nav-link:hover {
+  color: #E0261A;
+}
+
+.banner-productos {
+  background-color: #F5CA1D;
+  color: #fff;
+  padding: 50px 0;
+}
+.banner-productos img {
+  height: 200px;
+  width: 160px;
+}
+
+.catalogo-productos {
+  padding: 50px 0;
+}
+.catalogo-productos img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.catalogo-productos .col-3:hover {
+  background-color: #E0261A;
+}
+.catalogo-productos .col-4:hover {
+  background-color: #E0261A;
+}
+
+.banner-recetas {
+  background-color: #9FE3D5;
+  color: #fff;
+  padding: 25px 0;
+}
+.banner-recetas img {
+  height: 200px;
+  width: 160px;
+}
+
+.franga-sello-footer {
+  background-color: #121212;
+  padding: 25px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.franga-sello-footer img {
+  width: 84px;
+  height: 79px;
+}
+.franga-sello-footer p {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.inferior-footer img {
+  height: 70px;
+  width: 70px;
+}
+
+footer .formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+footer .formulario .casilla {
+  background-color: #fff;
+  border: none;
+  padding: 7px 12px;
+  margin-bottom: 12px;
+}
+footer .formulario .submit-button {
+  width: 160px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  align-self: flex-end;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 800;
+  background-color: #121212;
+  color: #fff;
+  border: none;
+}
+footer .formulario .submit-button :hover {
+  background-color: #fff;
+  color: #121212;
+}
+
+.nav-tabs .nav-link {
+  color: #121212;
+  border-top: 3px #a7a7a7 solid;
+  border-right: 3px #a7a7a7 solid;
+  border-bottom: none;
+  border-left: none;
+  border-radius: 0;
+  margin: 0px;
+}
+.nav-tabs .nav-link :hover {
+  color: #E0261A;
+  border-top: 3px #E0261A solid;
+  border-right: 3px #E0261A solid;
+  border: none;
+  border-left: none;
+  margin: 0px;
+}
+.nav-tabs .nav-link.active {
+  border-top: 3px #E0261A solid;
+  border-right: 3px #E0261A solid;
+  border-bottom: none;
+  border-left: none;
+  border-radius: 0;
+  color: #E0261A;
+}/*# sourceMappingURL=style.css.map */
