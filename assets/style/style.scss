@@ -35,7 +35,8 @@ $ditancia-prudente-3: 100px;
 }
 
 .espacio-prudente{
-    padding: $ditancia-prudente-1;
+    width: $ditancia-prudente-1;
+    height: $ditancia-prudente-1;
 }
 
 .py-25{
@@ -227,6 +228,26 @@ footer{
 
     }
 }
+.paginador{
+    display: block;
+    border: 3px $color-1 solid;
+    width: 65px;
+    height: 65px;
+    color: $color-1;
+    background-color: $color-3;
+    &:hover{
+        color: $color-3;
+        background-color: $color-1;
+    }
+}
+.paginador-flecha{
+    width: 0; 
+    height: 0; 
+    border-top: 32px solid transparent;
+    border-bottom: 32px solid transparent;
+    
+    border-left: 40px solid $color-1;
+  }
 //Contacto
 .contacto {
     .sucursal {

@@ -23,7 +23,8 @@
 }
 
 .espacio-prudente {
-  padding: 25px;
+  width: 25px;
+  height: 25px;
 }
 
 .py-25 {
@@ -209,6 +210,27 @@ footer .formulario .submit-button:hover {
   border-left: none;
   border-radius: 0;
   color: #E0261A;
+}
+
+.paginador {
+  display: block;
+  border: 3px #E0261A solid;
+  width: 65px;
+  height: 65px;
+  color: #E0261A;
+  background-color: #fff;
+}
+.paginador:hover {
+  color: #fff;
+  background-color: #E0261A;
+}
+
+.paginador-flecha {
+  width: 0;
+  height: 0;
+  border-top: 32px solid transparent;
+  border-bottom: 32px solid transparent;
+  border-left: 40px solid #E0261A;
 }
 
 .contacto .sucursal {
