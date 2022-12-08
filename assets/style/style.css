@@ -209,4 +209,23 @@ footer .formulario .submit-button :hover {
   border-left: none;
   border-radius: 0;
   color: #E0261A;
+}
+
+.contacto .sucursal {
+  max-width: 100%;
+}
+.contacto form .form-control {
+  padding: 10px 3px;
+  border: none;
+  border-radius: 0%;
+  padding-left: 16px;
+}
+.contacto form textarea {
+  height: 170px;
+}
+.contacto form .btn {
+  background-color: #E0261A;
+  border: none;
+  border-radius: 0%;
+  padding: 15px 40px;
 }/*# sourceMappingURL=style.css.map */
