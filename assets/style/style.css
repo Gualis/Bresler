@@ -399,6 +399,79 @@ footer .formulario .submit-button:hover {
   background-color: #CD002A;
 }
 
+.historia {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.historia h2 {
+  color: #E0261A;
+  font-size: 30px;
+}
+.historia p {
+  font-size: 16px;
+}
+
+.bg-yellow {
+  background-color: #E8BA02;
+  font-size: 16px;
+}
+.bg-yellow .row {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.bg-yellow h2 {
+  font-size: 30px;
+}
+
+.bg-red {
+  background-color: #E0261A;
+  color: #fff;
+}
+.bg-red .row {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.bg-red h2 {
+  font-size: 30px;
+}
+.bg-red img {
+  width: 100%;
+  height: 350px;
+}
+
+.bg-blue {
+  background-color: #9FE3D5;
+}
+.bg-blue .row {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.bg-blue h2 {
+  font-size: 30px;
+}
+.bg-blue img {
+  height: 270px;
+}
+
+.contactanos {
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+.contactanos h2 {
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.contactanos a {
+  text-decoration: none;
+  border: solid 3px #E0261A;
+  padding: 10px;
+  color: #E0261A;
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 135px;
+}
+
 @media screen and (max-width: 992px) {
   .ofertas img {
     width: 100%;
@@ -413,5 +486,14 @@ footer .formulario .submit-button:hover {
   }
   .ofertas-2 h2 {
     padding-top: 50px;
+  }
+  .bg-yellow h2 {
+    padding-top: 30px;
+  }
+  .bg-red img {
+    padding-top: 20px;
+  }
+  .bg-blue p {
+    padding-top: 30px;
   }
 }/*# sourceMappingURL=style.css.map */
