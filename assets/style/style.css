@@ -112,6 +112,11 @@ header nav .nav-link:hover {
   width: 160px;
 }
 
+.banner-productos.fam img {
+  height: 160px;
+  width: 200px;
+}
+
 .catalogo-productos {
   padding: 50px 0;
 }
@@ -180,10 +185,13 @@ footer .formulario .submit-button:hover {
   color: #121212;
 }
 
+.nav-tabs {
+  border-bottom: #E0261A 3px solid;
+}
 .nav-tabs .nav-link {
   color: #121212;
-  border-top: 3px #a7a7a7 solid;
-  border-right: 3px #a7a7a7 solid;
+  border-top: none;
+  border-right: none;
   border-bottom: none;
   border-left: none;
   border-radius: 0;
@@ -200,8 +208,8 @@ footer .formulario .submit-button:hover {
 .nav-tabs .nav-link.active {
   border-top: 3px #E0261A solid;
   border-right: 3px #E0261A solid;
+  border-left: 3px #E0261A solid;
   border-bottom: none;
-  border-left: none;
   border-radius: 0;
   color: #E0261A;
 }

@@ -117,6 +117,14 @@ header {
     }
 
 }
+.banner-productos.fam{
+
+    img{
+        height: 160px;
+        width: 200px;
+    }
+
+}
 
 .catalogo-productos{
     padding: $ditancia-prudente-2 0;
@@ -199,12 +207,14 @@ footer{
         }
     }
 }
+
 .nav-tabs{ //tabs en productos
-    
+
+    border-bottom: $color-1 3px solid;
     .nav-link{
         color: $color-6;
-        border-top: 3px #a7a7a7 solid;
-        border-right: 3px #a7a7a7   solid;
+        border-top: none;
+        border-right: none;
         border-bottom: none;
         border-left: none;
         border-radius: 0;
@@ -221,8 +231,9 @@ footer{
     .nav-link.active{
         border-top: 3px $color-1 solid;
         border-right: 3px $color-1 solid;
+        border-left: 3px $color-1 solid;
         border-bottom: none;
-        border-left: none;
+
         border-radius: 0;
         color: $color-1;
 
