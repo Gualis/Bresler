@@ -298,6 +298,14 @@ footer .formulario .submit-button:hover {
   opacity: 1;
 }
 
+.container-img-fit {
+  aspect-ratio: 1/1;
+  position: relative;
+}
+.container-img-fit:hover .overlay {
+  opacity: 1;
+}
+
 .img-home {
   width: 100%;
   height: auto;
