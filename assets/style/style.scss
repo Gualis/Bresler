@@ -158,12 +158,6 @@ header {
 
 .franga-sello-footer{
 
-    background-color: $color-6;
-    padding: $ditancia-prudente-1 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
     img{
         width: 84px;
         height: 79px;
@@ -577,6 +571,12 @@ footer{
     .bg-blue {
         p {
             padding-top: 30px;
+        }
+    }
+    .display-hide-sm{
+        display: none;
+        img{
+            display: none;
         }
     }
 }
