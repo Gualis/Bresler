@@ -33,6 +33,9 @@ $ditancia-prudente-3: 100px;
 .color-negro{
     color: $color-6;
 }
+.color-rojo{
+    color: $color-1;
+}
 
 .espacio-prudente{
     width: $ditancia-prudente-1;
@@ -456,6 +459,9 @@ footer{
     .col-md-6 {
         background-color: #CD002A;
     }
+}
+.pad-bott-50{
+    padding-bottom: $ditancia-prudente-2;
 }
 //Sobre Nosotros
 .historia {
