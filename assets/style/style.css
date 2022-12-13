@@ -225,10 +225,13 @@ footer .formulario .submit-button:hover {
   height: 65px;
   color: #E0261A;
   background-color: #fff;
+  text-align: center;
 }
 .paginador:hover {
-  color: #fff;
   background-color: #E0261A;
+}
+.paginador:hover h2 {
+  color: #fff;
 }
 
 .paginador-flecha {
@@ -421,6 +424,11 @@ footer .formulario .submit-button:hover {
 
 .pad-bott-50 {
   padding-bottom: 50px;
+}
+
+.video-receta iframe {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .historia {

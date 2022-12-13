@@ -249,8 +249,12 @@ footer{
     height: 65px;
     color: $color-1;
     background-color: $color-3;
+    text-align: center;
     &:hover{
-        color: $color-3;
+        h2{
+            color: $color-3;
+        }
+        
         background-color: $color-1;
     }
 }
@@ -462,6 +466,13 @@ footer{
 }
 .pad-bott-50{
     padding-bottom: $ditancia-prudente-2;
+}
+.video-receta{
+    
+    iframe{
+        max-width: 100%;
+        max-height: 100%;
+    }
 }
 //Sobre Nosotros
 .historia {
