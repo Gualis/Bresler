@@ -139,6 +139,13 @@ header nav .nav-link:hover {
   width: 160px;
 }
 
+.franga-sello-footer {
+  background-color: #121212;
+  padding: 25px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .franga-sello-footer img {
   width: 84px;
   height: 79px;
@@ -180,15 +187,6 @@ footer .formulario .submit-button {
 footer .formulario .submit-button:hover {
   background-color: #fff;
   color: #121212;
-}
-
-.navbar-toggler {
-  color: #fff;
-}
-
-.nav-icon-propio {
-  width: 30px;
-  height: 30px;
 }
 
 .nav-tabs {
@@ -403,9 +401,6 @@ footer .formulario .submit-button:hover {
   color: #fff;
   text-align: center;
 }
-.ofertas a {
-  text-decoration: none;
-}
 .ofertas .col-md-6 {
   background-color: #CD002A;
 }
@@ -422,9 +417,6 @@ footer .formulario .submit-button:hover {
   font-size: 2.25rem;
   color: #fff;
   text-align: center;
-}
-.ofertas-2 a {
-  text-decoration: none;
 }
 .ofertas-2 .col-md-6 {
   background-color: #CD002A;
@@ -536,6 +528,7 @@ footer .formulario .submit-button:hover {
   .bg-blue p {
     padding-top: 30px;
   }
+<<<<<<< Updated upstream
   .display-hide-sm {
     display: none;
   }
@@ -596,4 +589,6 @@ footer .formulario .submit-button:hover {
     margin-left: 40px;
     margin-top: -120px;
   }
+=======
+>>>>>>> Stashed changes
 }/*# sourceMappingURL=style.css.map */
