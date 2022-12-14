@@ -205,7 +205,13 @@ footer{
     }
     
 }
-
+.navbar-toggler {
+    color: $color-3;
+}
+.nav-icon-propio{
+    width: 30px;
+    height: 30px;
+}
 .nav-tabs{ //tabs en productos
 
     border-bottom: $color-1 3px solid;

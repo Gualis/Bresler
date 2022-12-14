@@ -182,6 +182,15 @@ footer .formulario .submit-button:hover {
   color: #121212;
 }
 
+.navbar-toggler {
+  color: #fff;
+}
+
+.nav-icon-propio {
+  width: 30px;
+  height: 30px;
+}
+
 .nav-tabs {
   border-bottom: #E0261A 3px solid;
 }
