@@ -376,6 +376,10 @@ footer .formulario .submit-button:hover {
   border: solid 4px #fff;
   padding: 5px;
 }
+.slider a:hover {
+  background-color: #E0261A;
+  color: #fff;
+}
 
 .popular {
   padding-top: 100px;
@@ -512,6 +516,10 @@ footer .formulario .submit-button:hover {
   font-weight: bold;
   font-size: 30px;
   margin-left: 135px;
+}
+.contactanos a:hover {
+  background-color: #E0261A;
+  color: #fff;
 }
 
 .padding-0 {
