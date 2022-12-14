@@ -139,6 +139,11 @@ header nav .nav-link:hover {
   width: 160px;
 }
 
+.nav-icon-propio {
+  width: 30px;
+  aspect-ratio: 1/1;
+}
+
 .franga-sello-footer {
   background-color: #121212;
   display: flex;
