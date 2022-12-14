@@ -403,6 +403,9 @@ footer .formulario .submit-button:hover {
 .ofertas .col-md-6 {
   background-color: #CD002A;
 }
+.ofertas a {
+  text-decoration: none;
+}
 
 .ofertas-2 {
   background-color: #9FE3D5;
@@ -419,6 +422,9 @@ footer .formulario .submit-button:hover {
 }
 .ofertas-2 .col-md-6 {
   background-color: #CD002A;
+}
+.ofertas-2 a {
+  text-decoration: none;
 }
 
 .pad-bott-50 {
