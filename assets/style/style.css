@@ -566,16 +566,22 @@ footer .formulario .submit-button:hover {
     font-size: 28px;
     margin-left: 90px;
     margin-top: 70px;
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.773);
-    padding: 0;
   }
   .ofertas-2 h2 {
     font-size: 28px;
     margin-left: 100px;
     margin-top: -150px;
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.773);
-    padding: 0;
+  }
+}
+@media screen and (max-width: 476px) {
+  .ofertas h2 {
+    font-size: 28px;
+    margin-left: 30px;
+    margin-top: 100x;
+  }
+  .ofertas-2 h2 {
+    font-size: 28px;
+    margin-left: 40px;
+    margin-top: -120px;
   }
 }/*# sourceMappingURL=style.css.map */
